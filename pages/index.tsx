@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import { useTheme } from "../hooks/useTheme";
+import Link from 'next/link'
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
@@ -10,7 +11,7 @@ export default function Home() {
       <div className="flex w-[390px] p-4 flex-col items-start gap-4">
         <h2 className="text-[#111] dark:text-[#FCFCFC] medium-title">Menu</h2>
         <div className="flex flex-col items-center gap-6">
-          <a
+          <Link
             href="/moments"
             className="flex w-[350px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111] border-purple active:bg-[#901abb] active:text-[#FCFCFC]"
           >
@@ -23,8 +24,8 @@ export default function Home() {
               alguns momentos que pelo menos para mim foram divertidos, legais,
               memoráveis, catastróficos, ou todas as opções anteriores.
             </p>
-          </a>
-          <a
+          </Link>
+          <Link
             href="/mail"
             className="flex w-[350px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111]  border-purple dark:active:bg-[#901abb] active:bg-[#901abb] active:text-[#FCFCFC]"
           >
@@ -35,8 +36,8 @@ export default function Home() {
               fazer uma carta online, até porque você sempre tá lendo no
               celular, é uma união do útil ao agradável.
             </p>
-          </a>
-          <a
+          </Link>
+          <Link
             href="/amo-te"
             className="flex w-[350px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111]  border-purple active:bg-[#901abb] active:text-[#FCFCFC]"
           >
@@ -49,7 +50,7 @@ export default function Home() {
               alguns momentos que pelo menos para mim foram divertidos, legais,
               memoráveis, catastróficos, ou todas as opções anteriores.
             </p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
