@@ -19,13 +19,23 @@ export default function Mail() {
         </div>
       </div> */}
 
-      <div className="car">
+      <div className="h-[118px] flex flex-col">
+        <div className="h-[58px] w-[390px] flex-col items-end pr-8">
+          <p className="title-home text-right">“Ser seu amigo é</p>
+          <p className="title-home text-right">de bom tom”</p>
+        </div>
+        <div className="flex justify-items-start">
+          <img src="car.svg" alt="" className="h-[70px]" />
+        </div>
+      </div>
+
+      {/* <div className="car">
         <div className="">
           <p className="title-home text-right pr-8">“Ser seu amigo é</p>
           <p className="title-home text-right pr-8">de bom tom”</p>
         </div>
         <img src="car.svg" alt="" className="carr" />
-      </div>
+      </div> */}
     </div>
   );
 }
