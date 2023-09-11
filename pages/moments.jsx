@@ -20,7 +20,7 @@ export default function Mail() {
       </div> */}
 
       <div className="car">
-        <div className="pb-4">
+        <div className="">
           <p className="title-home text-right pr-8">“Ser seu amigo é</p>
           <p className="title-home text-right pr-8">de bom tom”</p>
         </div>
