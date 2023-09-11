@@ -47,9 +47,9 @@ export default function Mail() {
           mas é tudo de momento, e você sabe que as que você me falou eu sei.
           Graças a você eu também decorei perfeitamente como escreve jhonathan,
           eu descobri que pra iniciar uma variável para um contador javascript,
-          é necessário colocar algo parecido com "let i=0", sei a entonação
-          perfeita pra frase "calaboca puta" e agora eu espero que você saiba,
-          já que "sabe reconhecer padrões", que eu me importo muito com você, e
+          é necessário colocar algo parecido com &ldquolet i=0&rdquo, sei a entonação
+          perfeita pra frase &ldquocalaboca puta&rdquo e agora eu espero que você saiba,
+          já que &ldquosabe reconhecer padrões&rdquo, que eu me importo muito com você, e
           sempre vou me importar. Se me permite uma analogia, sem você, esse meu
           último ano teria sido tão ruim quanto a textura de cheddar. Feliz
           aniversário Deborah! Ano que vem vai vir algo melhor ainda,
