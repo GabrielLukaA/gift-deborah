@@ -11,12 +11,20 @@ export default function Mail() {
           </button>
         </div>
       </div>
-      <div className="flex w-[390px] h-full pr-0 flex-col justify-end mb-12">
+      {/* <div className="flex w-[390px] h-full pr-0 flex-col justify-end mb-12">
         <p className="title-home text-right pr-8">“Ser seu amigo é </p>
         <p className="title-home text-right pr-8">de bom tom”</p>
         <div className="flex h-[70px] flex-col items-start absolute left-[-15px]  bottom-[-10px]">
           <img src="car.svg" alt="" />
         </div>
+      </div> */}
+
+      <div className="car">
+        <div>
+          <p className="title-home text-right">“Ser seu amigo é</p>
+          <p className="title-home text-right">de bom tom”</p>
+        </div>
+        <img src="car.svg" alt="" className="carr" />
       </div>
     </div>
   );
