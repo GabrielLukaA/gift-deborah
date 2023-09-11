@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div className="flex w-screen pb-0 flex-col items-start">
 <Header/>
-      <div className="flex w-[390px] p-4 flex-col items-center gap-4">
+      <div className="flex w-[390px] p-8 flex-col items-center gap-4">
         <h2 className="text-[#111] dark:text-[#FCFCFC] medium-title flex self-start">Menu</h2>
         <div className="flex flex-col items-center gap-6">
           <Link
             href="/moments"
-            className="flex w-[358px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111] border-purple active:bg-[#901abb] active:text-[#FCFCFC]"
+            className="flex w-[324px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111] border-purple active:bg-[#901abb] active:text-[#FCFCFC]"
           >
             <h3 className="paragraph-16 dark:text-[#FCFCFC]">
               Gerador de momentos!
@@ -27,7 +27,7 @@ export default function Home() {
           </Link>
           <Link
             href="/mail"
-            className="flex w-[358px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111]  border-purple dark:active:bg-[#901abb] active:bg-[#901abb] active:text-[#FCFCFC]"
+            className="flex w-[324px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111]  border-purple dark:active:bg-[#901abb] active:bg-[#901abb] active:text-[#FCFCFC]"
           >
             <h3 className="paragraph-16 dark:text-[#FCFCFC]">Cartinha?</h3>
             <p className="paragraph-home dark:text-[#FCFCFC]">
@@ -39,7 +39,7 @@ export default function Home() {
           </Link>
           <Link
             href="/amo-te"
-            className="flex w-[358px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111]  border-purple active:bg-[#901abb] active:text-[#FCFCFC]"
+            className="flex w-[324px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111]  border-purple active:bg-[#901abb] active:text-[#FCFCFC]"
           >
             <h3 className="paragraph-16 dark:text-[#FCFCFC]">
               Gerador de momentos!
