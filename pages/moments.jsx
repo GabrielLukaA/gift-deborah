@@ -3,8 +3,8 @@ export default function Mail() {
   return (
     <div className="flex w-screen pb-0 flex-col items-start h-screen">
       <Header />
-      <div className="flex flex-col w-[390px] h-[60%] p-4 justify-center items-center">
-        <div className="flex flex-col gap-[78px] w-full pr-4 items-center">
+      <div className="flex flex-col w-[390px] h-[60%] p-8 justify-center items-center">
+        <div className="flex flex-col gap-[78px] w-full  items-center">
           <p className="medium-title">Gere agora uma nova memória</p>
           <button className="w-full flex h-9 p-2 justify-center items-center gap-2 self-stretch bg-[#901ABB] rounded-lg paragraph-16 text-[#fcfcfc]">
             Gerar
