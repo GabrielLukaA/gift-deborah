@@ -7,7 +7,8 @@ export default function Home() {
 
   return (
     <div className="flex w-screen pb-0 flex-col items-start">
-<Header/>
+<Header title="Seja bem-vinda," title2="Deborah!" description="Se tudo ocorreu como planejado você ainda está vendo isso na data do
+          seu aniversário, então parabéns, eu espero que goste."/>
       <div className="flex w-[390px] p-8 flex-col items-center gap-4">
         <h2 className="text-[#111] dark:text-[#FCFCFC] medium-title flex self-start">Menu</h2>
         <div className="flex flex-col items-center gap-6">
@@ -38,17 +39,14 @@ export default function Home() {
             </p>
           </Link>
           <Link
-            href="/amo-te"
+            href="/"
             className="flex w-[324px] p-4 flex-col items-start gap-4 rounded-2xl bg-[#fcfcfc] dark:bg-[#111]  border-purple active:bg-[#901abb] active:text-[#FCFCFC]"
           >
             <h3 className="paragraph-16 dark:text-[#FCFCFC]">
-              Gerador de momentos!
+              Tem nada aqui!
             </h3>
             <p className="paragraph-home dark:text-[#FCFCFC]">
-              Bom, já se passou mais de um ano em que se vemos toda semana de
-              segunda à sexta, das 13:40 as 22:00. Talvez entrando aqui tenham
-              alguns momentos que pelo menos para mim foram divertidos, legais,
-              memoráveis, catastróficos, ou todas as opções anteriores.
+Ficava feio ter só dois cards, esse aqui é puramente estético, mas não<b className="text-[#901abb]"> underestime</b> ele, ocupar espaço é uma missão importante. Aproveitar esse card pra pedir desculpa pelo design simplão, o tema dark deu mais trabalho do que tinha pensado.
             </p>
           </Link>
         </div>

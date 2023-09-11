@@ -1,5 +1,6 @@
 import { memo, useState } from "react";
 import Header from "../components/Header";
+import Link from 'next/link'
 
 export default function Mail() {
   const theme = getStoredCartItems();
@@ -30,7 +31,8 @@ export default function Mail() {
 
   return (
     <div className="flex w-screen pb-0 flex-col items-start h-screen">
-      <Header />
+      <Link className="fixed top-4 left-8 dark:text-white" href="/"><p>x</p></Link>
+      <Header title="Gerador de" title2="Momentos!" description="Espero que goste dessa ideia, tenho memória de peixe então não terão muitos momentos, é simbólico apenas."/>
       <div className="flex flex-col w-[390px] h-[60%] p-8 justify-center items-center">
         <div className="flex flex-col gap-[78px] w-full  items-center">
           <p className="medium-title dark:text-[#fcfcfc]">Gere agora um bom momento</p>

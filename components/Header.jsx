@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTheme } from "../hooks/useTheme"
 
-export default function Header() {
+export default function Header(props) {
 const {theme, setTheme} = useTheme();
 
     return (
@@ -9,10 +9,11 @@ const {theme, setTheme} = useTheme();
         <div className="flex justify-between pt-8  pl-0 pb-4 items-center self-stretch">
           <div className="flex flex-col">
             <h1 className="text-[#111] dark:text-[#FCFCFC] title-home">
-              Seja bem-vinda,
+              {props.title}
+
             </h1>
             <h1 className="text-[#111] dark:text-[#FCFCFC] title-home">
-              Deborah!
+            {props.title2}
             </h1>
           </div>
           {theme === "light" ? (
@@ -36,8 +37,8 @@ const {theme, setTheme} = useTheme();
           )}
         </div>
         <p className="paragraph-home text-[#272727] dark:text-[#FCFCFC]">
-          Se tudo ocorreu como planejado você ainda está vendo isso na data do
-          seu aniversário, então parabéns, eu espero que goste.
+          {props.description}
+
         </p>
       </div>
     )
