@@ -21,14 +21,14 @@ flex-direction: column;
 align-items: flex-start;
 position: absolute;
 left: -1rem;
-bottom: 24px;
+bottom: 20px;
 }
 
 
 .car{
   display: flex;
 width: 390px;
-height: 130px;
+height: 150px;
 padding-right: 0px;
 flex-direction: column;
 align-items: flex-end;
