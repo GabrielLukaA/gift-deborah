@@ -25,7 +25,7 @@ export default function Mail() {
           <p className="title-home text-right">de bom tom”</p>
         </div>
         <div className="flex justify-items-start">
-          <img src="car.svg" alt="" className="h-[70px]" />
+          <img src="car.svg" alt="" className="h-[60px]" />
         </div>
       </div>
 
