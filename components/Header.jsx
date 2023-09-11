@@ -31,7 +31,7 @@ const {theme, setTheme} = useTheme();
               }}
               className="flex px-3 py-2 items-center gap-2 rounded-lg border-purple default-shadow active:bg-[#901abb]"
             >
-              <img src="/moon.svg" alt="" className="" />
+              <img src="/sun.svg" alt="" className="" />
             </div>
           )}
         </div>
