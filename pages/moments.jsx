@@ -21,8 +21,8 @@ export default function Mail() {
 
       <div className="car">
         <div>
-          <p className="title-home text-right">“Ser seu amigo é</p>
-          <p className="title-home text-right">de bom tom”</p>
+          <p className="title-home text-right pr-8">“Ser seu amigo é</p>
+          <p className="title-home text-right pr-8">de bom tom”</p>
         </div>
         <img src="car.svg" alt="" className="carr" />
       </div>
