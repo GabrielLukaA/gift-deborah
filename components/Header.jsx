@@ -5,7 +5,7 @@ export default function Header() {
 const {theme, setTheme} = useTheme();
 
     return (
-      <div className="flex w-[390px] px-8 pt-4 pb-0 flex-col items-center">
+      <div className="flex w-[390px] px-4 pt-4 pb-0 flex-col items-center">
         <div className="flex justify-between pt-8  pl-0 pb-4 items-center self-stretch">
           <div className="flex flex-col">
             <h1 className="text-[#111] dark:text-[#FCFCFC] title-home">
